@@ -64,7 +64,7 @@ export async function GitHubStarWidget() {
 	return (
 		<div className="flex items-center gap-2">
 			<a
-				className="hidden sm:block text-[#bbb]"
+				className="hidden sm:block text-beige"
 				href={Constants.GITHUB_REPO}
 				target="_blank"
 				rel="noopener noreferrer"
@@ -75,7 +75,7 @@ export async function GitHubStarWidget() {
 				href="https://github.com/redwoodjs/sdk"
 				target="_blank"
 				rel="noopener noreferrer"
-				className="github-start inline-flex items-center gap-2 px-1 border-2 border-black text-[#bbb] leading-none transition-colors h-[24px]"
+				className="github-start inline-flex items-center gap-2 p-2 border-1 border-dashed  border-orange-light text-beige leading-none transition-colors "
 			>
 				<svg
 					id="github-star"
