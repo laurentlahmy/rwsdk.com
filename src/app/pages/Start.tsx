@@ -19,7 +19,7 @@ export default function StartPage() {
 				</a>
 			</div>
 			<div className="mb-10 sm:mb-12 md:mb-16">
-				<h1 className="text-[34px] sm:text-[48px] md:text-[64px] font-instrument-serif  tracking-[-0.03em] font-bold leading-[0.9]">
+				<h1 className="text-[34px] sm:text-[48px] md:text-[64px] font-apple  tracking-[-0.03em] font-bold leading-[0.9]">
 					Welcome to RedwoodSDK
 				</h1>
 				<p className="text-[18px] sm:text-[22px] md:text-[26px] font-noto mt-3">
@@ -28,7 +28,7 @@ export default function StartPage() {
 			</div>
 
 			<section className="mb-10 sm:mb-12 md:mb-16">
-				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-instrument-serif  tracking-[-0.03em] font-bold mb-4">
+				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-apple  tracking-[-0.03em] font-bold mb-4">
 					Next steps
 				</h2>
 				<ol className="list-decimal pl-6 space-y-3 text-[16px] sm:text-[18px] md:text-[20px]">
@@ -81,7 +81,7 @@ export default function StartPage() {
 			</section>
 
 			<section className="mb-10 sm:mb-12 md:mb-16">
-				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-instrument-serif  tracking-[-0.03em] font-bold mb-4">
+				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-apple  tracking-[-0.03em] font-bold mb-4">
 					Star the repo
 				</h2>
 				<p className="mb-4">
@@ -93,14 +93,14 @@ export default function StartPage() {
 			</section>
 
 			<section className="mb-10 sm:mb-12 md:mb-16">
-				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-instrument-serif  tracking-[-0.03em] font-bold mb-4">
+				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-apple  tracking-[-0.03em] font-bold mb-4">
 					Share RedwoodSDK
 				</h2>
 				<div className="space-y-3 text-[16px] sm:text-[18px] md:text-[20px]">
 					<p>Tell your friends you’re trying RedwoodSDK:</p>
 					<div className="flex flex-col sm:flex-row gap-3">
 						<a
-							className="border-2 border-black px-3 py-1 bg-black text-orange-medium hover:text-orange-light font-instrument-serif  tracking-[-0.03em]"
+							className="border-2 border-black px-3 py-1 bg-black text-orange-medium hover:text-orange-light font-apple  tracking-[-0.03em]"
 							href={`https://x.com/intent/tweet?text=${encodeURIComponent("I’m trying RedwoodSDK — a React framework for @Cloudflare. Check it out!")}&url=${encodeURIComponent("https://rwsdk.com")}`}
 							target="_blank"
 							rel="noreferrer"
@@ -108,7 +108,7 @@ export default function StartPage() {
 							Share on X
 						</a>
 						<a
-							className="border-2 border-black px-3 py-1 bg-black text-orange-medium hover:text-orange-light font-instrument-serif  tracking-[-0.03em]"
+							className="border-2 border-black px-3 py-1 bg-black text-orange-medium hover:text-orange-light font-apple  tracking-[-0.03em]"
 							href={`https://wa.me/?text=${encodeURIComponent("I’m trying RedwoodSDK — a React framework for @Cloudflare. Check it out! https://rwsdk.com")}`}
 							target="_blank"
 							rel="noreferrer"
@@ -116,7 +116,7 @@ export default function StartPage() {
 							Share on WhatsApp
 						</a>
 						<a
-							className="border-2 border-black px-3 py-1 bg-black text-orange-medium hover:text-orange-light font-instrument-serif  tracking-[-0.03em]"
+							className="border-2 border-black px-3 py-1 bg-black text-orange-medium hover:text-orange-light font-apple  tracking-[-0.03em]"
 							href={`https://bsky.app/intent/compose?text=${encodeURIComponent("I’m trying RedwoodSDK — a React framework for @Cloudflare. Check it out! https://rwsdk.com")}`}
 							target="_blank"
 							rel="noreferrer"
@@ -134,7 +134,7 @@ export default function StartPage() {
 			</section>
 
 			<section>
-				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-instrument-serif  tracking-[-0.03em] font-bold mb-4">
+				<h2 className="text-[26px] sm:text-[32px] md:text-[40px] font-apple  tracking-[-0.03em] font-bold mb-4">
 					Deploy to Cloudflare
 				</h2>
 				<p className="text-[16px] sm:text-[18px] md:text-[20px] mb-4">

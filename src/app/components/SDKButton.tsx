@@ -27,7 +27,7 @@ export const SDKButton: React.FC<SDKButtonProps> = ({
 			target="_blank"
 			rel="noreferrer"
 			href={href || Constants.DOCS_QUICKSTART_URL}
-			className={`text-orange-medium border-2 border-orange-light bg-black font-instrument-serif  tracking-[-0.03em] w-fit hover:text-orange-light transition-colors ${sizeClasses[size]} ${className}`}
+			className={`text-orange-medium border-2 border-orange-light bg-black font-apple  tracking-[-0.03em] w-fit hover:text-orange-light transition-colors ${sizeClasses[size]} ${className}`}
 		>
 			{text || "QUICK START"}
 		</a>

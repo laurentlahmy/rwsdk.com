@@ -43,7 +43,7 @@ export default async function BlogList() {
 
 			{/* Hero Section */}
 			<div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-20 py-12 sm:py-16 lg:py-20">
-				<h1 className="text-4xl sm:text-5xl lg:text-6xl font-instrument-serif  tracking-[-0.03em] mb-4 text-center lg:text-left">
+				<h1 className="text-4xl sm:text-5xl lg:text-6xl font-apple  tracking-[-0.03em] mb-4 text-center lg:text-left">
 					RedwoodSDK Blog
 				</h1>
 				<p className="text-xl text-gray-600 text-center lg:text-left">
@@ -60,7 +60,7 @@ export default async function BlogList() {
 						className="flex flex-col lg:flex-row"
 					>
 						<div className="lg:w-1/2 p-6">
-							<h2 className="text-3xl font-instrument-serif  tracking-[-0.03em] mb-4 group-hover:text-orange transition-colors">
+							<h2 className="text-3xl font-apple  tracking-[-0.03em] mb-4 group-hover:text-orange transition-colors">
 								{latestBlog.title}
 							</h2>
 							<p className="text-gray-600 mb-4">{latestBlog.description}</p>
@@ -105,7 +105,7 @@ export default async function BlogList() {
 								className="block rounded-lg overflow-hidden transition-shadow duration-300 h-full"
 							>
 								<div className="p-6">
-									<h2 className="text-3xl font-instrument-serif  tracking-[-0.03em] mb-4 group-hover:text-orange transition-colors">
+									<h2 className="text-3xl font-apple  tracking-[-0.03em] mb-4 group-hover:text-orange transition-colors">
 										{blog.title}
 									</h2>
 									<p className="text-gray-600 mb-4">{blog.description}</p>

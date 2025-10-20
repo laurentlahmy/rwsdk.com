@@ -88,7 +88,7 @@ export default function PersonalSoftware() {
 							/>
 						</a>
 						<section className="space-y-6">
-							<h1 className="text-[28px] sm:text-[52px] lg:text-[60px] font-instrument-serif  tracking-[-0.03em] leading-[81%] mix-blend-multiply mb-4 sm:mb-8 grid-bg">
+							<h1 className="text-[28px] sm:text-[52px] lg:text-[60px] font-apple  tracking-[-0.03em] leading-[81%] mix-blend-multiply mb-4 sm:mb-8 grid-bg">
 								<div>
 									It started with a blinking cursor
 									<span className="text-orange cursor-blink"> | </span>
@@ -130,7 +130,7 @@ export default function PersonalSoftware() {
 						</section>
 
 						<section className="space-y-6">
-							<h2 className="text-xl font-instrument-serif  tracking-[-0.03em] uppercase text-[28px]">
+							<h2 className="text-xl font-apple  tracking-[-0.03em] uppercase text-[28px]">
 								But the software we built changed
 							</h2>
 
@@ -155,7 +155,7 @@ export default function PersonalSoftware() {
 						</section>
 
 						<section className="space-y-6">
-							<h2 className="text-xl font-instrument-serif  tracking-[-0.03em] uppercase text-[28px]">
+							<h2 className="text-xl font-apple  tracking-[-0.03em] uppercase text-[28px]">
 								There's nothing inherently wrong with software at scale
 							</h2>
 
@@ -175,7 +175,7 @@ export default function PersonalSoftware() {
 						</section>
 
 						<section className="space-y-6">
-							<h2 className="text-xl font-instrument-serif  tracking-[-0.03em] uppercase text-[28px]">
+							<h2 className="text-xl font-apple  tracking-[-0.03em] uppercase text-[28px]">
 								What if it could be different?
 							</h2>
 							<p className="text-base lg:text-md leading-8 font-light">
@@ -195,7 +195,7 @@ export default function PersonalSoftware() {
 								That you can share (if you want to).
 							</p>
 
-							<h3 className="text-xl font-instrument-serif  tracking-[-0.03em] uppercase text-[28px]">
+							<h3 className="text-xl font-apple  tracking-[-0.03em] uppercase text-[28px]">
 								Personal software is coming back
 							</h3>
 
@@ -222,7 +222,7 @@ export default function PersonalSoftware() {
 								</strong>
 							</p>
 
-							<h3 className="text-xl font-instrument-serif  tracking-[-0.03em] uppercase text-[28px]">
+							<h3 className="text-xl font-apple  tracking-[-0.03em] uppercase text-[28px]">
 								Redwood is here for that reason
 							</h3>
 
@@ -254,7 +254,7 @@ export default function PersonalSoftware() {
 								We want to bring that joy back.
 							</p>
 
-							<h3 className="text-xl font-instrument-serif  tracking-[-0.03em] uppercase text-[28px]">
+							<h3 className="text-xl font-apple  tracking-[-0.03em] uppercase text-[28px]">
 								The Personal Software Revolution
 							</h3>
 
