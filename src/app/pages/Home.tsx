@@ -83,10 +83,10 @@ export default function Home() {
 				/>
 				<div className="relative z-10 flex flex-col items-center justify-end min-h-[70vh] sm:min-h-screen px-3 sm:px-4 md:px-8 text-center max-w-[1260px] mx-auto">
 					<div className="mb-[100px] sm:mb-[100px] md:mb-[63px] flex flex-col gap-3 sm:gap-8">
-						<h1 className="text-[44px] sm:text-[54px] md:text-[96px] lg:text-[124px] text-baige font-apple tracking-[-0.03em] leading-[81%] tracking-[-0.03em]">
+						<h1 className="text-[44px] sm:text-[54px] md:text-[96px] lg:text-[124px] text-beige font-apple tracking-[-0.03em] leading-[81%] tracking-[-0.03em]">
 							This could be the start of something small
 						</h1>
-						{/* <h1 className="text-[36px] sm:text-[48px] md:text-[72px] lg:text-[90px] text-baige font-apple  tracking-[-0.03em] leading-[81%]">
+						{/* <h1 className="text-[36px] sm:text-[48px] md:text-[72px] lg:text-[90px] text-beige font-apple  tracking-[-0.03em] leading-[81%]">
               This could be the start of something small
             </h1> */}
 						{/* <h3 className="text-[18px] sm:text-[24px] md:text-[32px]  font-mil text-center leading-[0.9] text-orange-light max-w-[1060px] mx-auto  tracking-[-0.03em] font-thin">

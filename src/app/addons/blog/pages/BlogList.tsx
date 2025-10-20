@@ -20,7 +20,7 @@ export default async function BlogList() {
 	const otherBlogs = sortedBlogs.slice(1);
 
 	return (
-		<div className="min-h-screen bg-baige">
+		<div className="min-h-screen bg-beige">
 			{/* SEO Metadata */}
 			<title>Blog | RedwoodSDK</title>
 			<meta

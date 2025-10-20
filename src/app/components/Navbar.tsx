@@ -9,7 +9,7 @@ interface NavbarProps {
 
 export function Navbar(props: NavbarProps) {
 	return (
-		<div className="flex flex-col h-16 lg:flex-row justify-between sticky top-0 bg-baige z-99 items-center transition-shadow duration-200 bg-neutral-900">
+		<div className="flex flex-col h-16 lg:flex-row justify-between sticky top-0 bg-beige z-99 items-center transition-shadow duration-200 bg-neutral-900">
 			<a
 				className="cursor-pointer bg-orange-400 h-full flex items-center px-8 border-r-8 border-cyan-400"
 				href="/"

@@ -7,7 +7,7 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-baige: #f4eedf;
+  --color-beige: #f4eedf;
   --color-orange: #f47238;
   --color-orange-light: #ffad48;
   --color-orange-dark: #e73c36;
@@ -22,7 +22,7 @@
 }
 
 body {
-  @apply bg-baige text-black font-noto;
+  @apply bg-beige text-black font-noto;
 }
 
 .blog-page p,
