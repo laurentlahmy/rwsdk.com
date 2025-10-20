@@ -4,27 +4,27 @@ import { useEffect, useRef } from "react";
 import { SDKButton } from "./SDKButton";
 import { CloudflareImage } from "./CloudflareImage";
 declare global {
-  interface Window {
-    __kwesformsScriptAdded?: boolean;
-  }
+	interface Window {
+		__kwesformsScriptAdded?: boolean;
+	}
 }
 
 export function Newsletter() {
-  const formRef = useRef<HTMLFormElement>(null);
+	const formRef = useRef<HTMLFormElement>(null);
 
-  useEffect(() => {
-    if (!window.__kwesformsScriptAdded) {
-      const script = document.createElement("script");
-      script.src = "https://kwesforms.com/v2/kf-script.js";
-      script.async = true;
-      script.defer = true;
-      document.body.appendChild(script);
-      window.__kwesformsScriptAdded = true;
-    }
+	useEffect(() => {
+		if (!window.__kwesformsScriptAdded) {
+			const script = document.createElement("script");
+			script.src = "https://kwesforms.com/v2/kf-script.js";
+			script.async = true;
+			script.defer = true;
+			document.body.appendChild(script);
+			window.__kwesformsScriptAdded = true;
+		}
 
-    // Add custom styles for KwesForms
-    const style = document.createElement("style");
-    style.textContent = `
+		// Add custom styles for KwesForms
+		const style = document.createElement("style");
+		style.textContent = `
       /* Error styling */
       .field.kw-has-error {
         border-color: #ff0000 !important;
@@ -136,67 +136,67 @@ export function Newsletter() {
         order: 10 !important;
       }
     `;
-    document.head.appendChild(style);
+		document.head.appendChild(style);
 
-    return () => {
-      document.head.removeChild(style);
-    };
-  }, []);
+		return () => {
+			document.head.removeChild(style);
+		};
+	}, []);
 
-  return (
-    <section className="flex flex-row gap-4 max-w-[1400px] mx-auto px-10 py-20">
-      <div className="flex flex-col gap-6 max-w-[800px] text-center lg:text-left">
-        <h2 className="text-[36px] sm:text-[48px] md:text-[72px] lg:text-[80px] font-bold font-playfair leading-[81%] mb-3 sm:mb-4 md:mb-8 grid-bg py-4 px-2 w-fit">
-          Be the first to know
-        </h2>
-        <p className="text-[18px] sm:text-[24px] md:text-[28px] font-noto leading-[1]">
-          Get a summary of what we've shipped, articles we've written, and
-          upcoming events straight to your inbox, at most once every two weeks.
-        </p>
-        <form
-          ref={formRef}
-          action="https://kwesforms.com/api/foreign/forms/j3K2Y919pleglPFXuuAz"
-          className="kf-form flex flex-col gap-4"
-        >
-          <div className="flex flex-row flex-wrap gap-0 sm:gap-4 items-end">
-            <div className="field bg-orange-light text-white border-orange-dark border-1 p-3 w-full sm:w-fit">
-              <input
-                type="name"
-                id="name"
-                name="name"
-                placeholder="* Enter your name"
-                data-kw-rules="required"
-                className="w-full sm:w-[180px] bg-transparent border-none text-purple placeholder-purple focus:outline-none"
-              />
-            </div>
-            <div className="field bg-orange-light text-white border-orange-dark border-1 p-3 w-full sm:w-fit">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="* Enter your @ email address"
-                data-kw-rules="required|email"
-                className="w-full sm:w-[300px] bg-transparent border-none text-purple placeholder-purple focus:outline-none"
-              />
-            </div>
-            <button
-              id="newsletter-signup"
-              type="submit"
-              className="text-orange-medium border border-2 border-orange-light bg-black font-playfair w-full sm:w-fit hover:text-orange-light transition-colors text-[18px] sm:text-[20px] md:text-[24px] px-4 sm:px-3 md:px-8 py-1 h-[52px] sm:mb-[33px]"
-            >
-              Subscribe
-            </button>
-          </div>
-          {/* Error and success messages will be inserted here by KwesForms */}
-        </form>
-      </div>
-      <div>
-        <CloudflareImage
-          imageId="f32bcf3d-9f19-455e-1247-dfa18baf4f00"
-          alt="logo"
-          className="w-[180px] sm:w-[220px] md:w-[300px]"
-        />
-      </div>
-    </section>
-  );
+	return (
+		<section className="flex flex-row gap-4 max-w-[1400px] mx-auto px-10 py-20">
+			<div className="flex flex-col gap-6 max-w-[800px] text-center lg:text-left">
+				<h2 className="text-[36px] sm:text-[48px] md:text-[72px] lg:text-[80px] font-instrument-serif  tracking-[-0.03em] leading-[81%] mb-3 sm:mb-4 md:mb-8 grid-bg py-4 px-2 w-fit">
+					Be the first to know
+				</h2>
+				<p className="text-[18px] sm:text-[24px] md:text-[28px] font-noto leading-[1]">
+					Get a summary of what we've shipped, articles we've written, and
+					upcoming events straight to your inbox, at most once every two weeks.
+				</p>
+				<form
+					ref={formRef}
+					action="https://kwesforms.com/api/foreign/forms/j3K2Y919pleglPFXuuAz"
+					className="kf-form flex flex-col gap-4"
+				>
+					<div className="flex flex-row flex-wrap gap-0 sm:gap-4 items-end">
+						<div className="field bg-orange-light text-white border-orange-dark border-1 p-3 w-full sm:w-fit">
+							<input
+								type="name"
+								id="name"
+								name="name"
+								placeholder="* Enter your name"
+								data-kw-rules="required"
+								className="w-full sm:w-[180px] bg-transparent border-none text-purple placeholder-purple focus:outline-none"
+							/>
+						</div>
+						<div className="field bg-orange-light text-white border-orange-dark border-1 p-3 w-full sm:w-fit">
+							<input
+								type="email"
+								id="email"
+								name="email"
+								placeholder="* Enter your @ email address"
+								data-kw-rules="required|email"
+								className="w-full sm:w-[300px] bg-transparent border-none text-purple placeholder-purple focus:outline-none"
+							/>
+						</div>
+						<button
+							id="newsletter-signup"
+							type="submit"
+							className="text-orange-medium border border-2 border-orange-light bg-black font-instrument-serif  tracking-[-0.03em] w-full sm:w-fit hover:text-orange-light transition-colors text-[18px] sm:text-[20px] md:text-[24px] px-4 sm:px-3 md:px-8 py-1 h-[52px] sm:mb-[33px]"
+						>
+							Subscribe
+						</button>
+					</div>
+					{/* Error and success messages will be inserted here by KwesForms */}
+				</form>
+			</div>
+			<div>
+				<CloudflareImage
+					imageId="f32bcf3d-9f19-455e-1247-dfa18baf4f00"
+					alt="logo"
+					className="w-[180px] sm:w-[220px] md:w-[300px]"
+				/>
+			</div>
+		</section>
+	);
 }

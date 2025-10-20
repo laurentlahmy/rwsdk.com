@@ -15,9 +15,9 @@
   --color-purple-dark: #6b1a35;
   --color-light: #f2ece4;
   --color-editor: #1b1b1b;
-  --font-playfair: "Playfair Display", serif;
+  --font-instrument-serif  tracking-[-0.03em]: "Playfair Display", serif;
   --font-noto: "Noto Sans", sans-serif;
-  --font-instrument-serif: "Instrument Serif", serif;
+  --font-instrument-serif  tracking-[-0.03em]: "Instrument Serif", serif;
 }
 
 body {
@@ -45,7 +45,7 @@ h3 {
 .blog-page h5,
 .blog-page h6 {
   line-height: 1.2;
-  @apply font-playfair;
+  @apply font-instrument-serif  tracking-[-0.03em];
 }
 
 .grid-bg {
